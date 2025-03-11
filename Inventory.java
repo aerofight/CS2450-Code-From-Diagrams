@@ -1,6 +1,5 @@
 import java.util.*;
 
-
 public class Inventory {
 
     private int quantity;
