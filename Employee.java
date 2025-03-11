@@ -19,7 +19,7 @@ public class Employee extends User{
     public String getName() { return name; }
     public int getUpdateSalary() { return updateSalary; }
 
-    public void setUpdateSalary(int updateSalary) { this.updateSalary = updateSalary; }
+    public void setUpdateSalary(int updateSalary) { this.salary = updateSalary + salary; }
     public void setSalary(int salary) { this.salary = salary; }
     public String setName(String name) { return name; }
 
