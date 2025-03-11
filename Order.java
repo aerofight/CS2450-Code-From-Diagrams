@@ -5,14 +5,14 @@ public class Order {
     private String orderId = "";
 
     public int getPrice() { return price; };
-    public int setPrice(){} ;
+    public int setPrice(int price){this.price = price;} ;
 
     public int getEstimatedDeliveryTime() { return estimatedDeliveryTime; };
-    public int setEstimatedDeliveryTime() {};
+    public int setEstimatedDeliveryTime(int estimatedDeliveryTime) {this.estimatedDeliveryTime = estimatedDeliveryTime;};
 
     public int getTrackingNumber() { return TrackingNumber; };
-    public int setTrackingNumber() {};
+    public int setTrackingNumber(int TrackingNumber) {this.TrackingNumber = TrackingNumber;};
 
     public int getOrderId() {return TrackingNumber; };
-    public int setPrice(){} ;
+    public int setOrderId(int orderId ){this.orderId = orderId} ;
 }
