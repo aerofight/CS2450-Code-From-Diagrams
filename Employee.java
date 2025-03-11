@@ -1,7 +1,6 @@
 public class Employee extends User{
     private int salary;
     private String name;
-    private int updateSalary;
 
 
 
@@ -15,10 +14,9 @@ public class Employee extends User{
 
     public int getSalary() {return salary;}
     public String getName() { return name; }
-    public int getUpdateSalary() { return updateSalary; }
 
-    public void setUpdateSalary(int updateSalary) { this.salary = updateSalary + salary; }
+
     public void setSalary(int salary) { this.salary = salary; }
-    public String setName(String name) { return name; }
+    public void setName(String name) { this.name = name; }
 
 }
