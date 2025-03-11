@@ -1,6 +1,6 @@
 public class Order {
-    int price = 0;
-    int estimatedDeliveryTime = 0;
-    int TrackingNumber = 0;
-    String orderId = "";
+    private int price = 0;
+    private int estimatedDeliveryTime = 0;
+    private int TrackingNumber = 0;
+    private String orderId = "";
 }
