@@ -11,6 +11,14 @@ public class Inventory {
         this.description = description;
     }
 
+    public void setQuantity(int quantity) {
+        this.quantity = quantity;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
     public int getQuantity() {
         return quantity;
     }
