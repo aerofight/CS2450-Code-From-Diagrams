@@ -9,8 +9,6 @@ public class Employee extends User{
         super(username, password);
         this.name = name;
         this.salary = salary;
-        this.setUsername(username);
-        this.setPassword(password);
 
 
     }
